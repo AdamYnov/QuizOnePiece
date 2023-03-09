@@ -8,14 +8,14 @@
 
     <TextView
         android:id="@+id/text_score"
-        android:layout_width="69dp"
-        android:layout_height="41dp"
+        android:layout_width="289dp"
+        android:layout_height="167dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="104dp"
-        android:text="Score :"
+        android:layout_marginTop="76dp"
+        android:text="@string/result"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.322"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

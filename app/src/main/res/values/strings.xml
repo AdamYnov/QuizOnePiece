@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">Quizz One Piece Test</string>
+    <string name="app_name">Quizz One Piece</string>
+    <string name="start_game">Commencer</string>
+    <string name="result">Fin du Quizz One piece</string>
+
     <string name="title_activity_result">ResultActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

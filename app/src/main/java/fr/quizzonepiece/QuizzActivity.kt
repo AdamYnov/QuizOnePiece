@@ -38,6 +38,7 @@ class QuizzActivity : AppCompatActivity() {
         val answer_2: TextView = findViewById(R.id.answer_2)
         val answer_3: TextView = findViewById(R.id.answer_3)
         val answer_4: TextView = findViewById(R.id.answer_4)
+
         val radioGroup: RadioGroup = findViewById(R.id.group_answer)
         val buttonCheck: Button = findViewById(R.id.button_check)
 
@@ -72,7 +73,7 @@ class QuizzActivity : AppCompatActivity() {
             }
 
             step ++
-            if(step == 3){
+            if(step == 7){
                 nextActivity = Intent(this, ResultActivity::class.java)
                 nextActivity.putExtra("result", result)
                 startActivity(nextActivity)

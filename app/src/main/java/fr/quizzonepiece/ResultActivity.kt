@@ -15,7 +15,12 @@ class ResultActivity : AppCompatActivity() {
 
     val score = intent.getIntExtra("result",0)
 
-    textScore.setText("$score/3")
+
+        if (score < 4){
+            textScore.setText("Dommage !! \n $score/8")
+        }else{
+            textScore.setText("Felicitation !! \n $score/8")
+        }
 
     }
 }
